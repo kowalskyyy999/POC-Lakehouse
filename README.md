@@ -87,3 +87,10 @@ TOPIC=...            # used for Kafka
     ```shell
     ./sparkApp.sh src/delta-streaming.py --model-version <model versioning>
     ```
+
+## **DataFlow Diagram**
+### **Batch**
+![dfd-batch](https://user-images.githubusercontent.com/51861035/209094472-1f4f5f6f-69d3-4327-9cc1-a8384ed77bf0.png)
+
+### **Streaming**
+![dfd-stream](https://user-images.githubusercontent.com/51861035/209094555-d28f4a4d-8b95-4443-8104-9e457ffc9f08.png)
